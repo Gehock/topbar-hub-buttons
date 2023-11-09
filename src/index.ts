@@ -20,11 +20,11 @@ const plugin: JupyterFrontEndPlugin<void> = {
     // Hacky since ref + mode didn't work; add buttons only after other top bar items are done
     app.restored.then(() => {
       // Create toolbar
-      let tb = new Toolbar();
+      const tb = new Toolbar();
       tb.id = 'hub-toolbar';
 
       // Create control panel button and add to toolbar
-      let controlPanelButton = new ToolbarButton({
+      const controlPanelButton = new ToolbarButton({
         className: 'logoutButton',
         iconClass: 'fa fa-cogs',
         tooltip: 'Control Panel',
@@ -37,7 +37,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
       tb.addItem('controlPanelButton', controlPanelButton);
 
       // Create logout button and add to toolbar
-      let logoutButton = new ToolbarButton({
+      const logoutButton = new ToolbarButton({
         className: 'logoutButton',
         iconClass: 'fa fa-sign-out',
         tooltip: 'Log Out',
@@ -49,7 +49,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
       };
       tb.addItem('logoutButton', logoutButton);
 
-      let spacer = Toolbar.createSpacerItem();
+      const spacer = Toolbar.createSpacerItem();
       spacer.id = 'spacer';
 
       // Add spacer and toolbar to top area

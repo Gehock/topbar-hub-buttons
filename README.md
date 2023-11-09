@@ -4,6 +4,7 @@
 A JupyterLab extension that adds JupyterHub buttons on the topbar
 
 ## Change logs
+
 - v0.2.0 (Alireza) Removed the schema to directly execute the JupyterFrontend commands defined by Jupyterhub extension. Also some minor style issues have been fixed.
 - v0.1.0 (Tunç): Below is the text copied directly from the extension template. I can change it later if necessary. For now, the only thing to know is that this extension adds "Hub Control Panel" and "Logout" buttons to the JupyterLab top bar. The main logic to do so is in `schema/plugin.json`, and `src/index.ts` has a little bit of code that uses the former (and logs a message to the console).
 

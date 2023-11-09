@@ -5,18 +5,18 @@
 */
 
 :root {
-    --jp-additional-toolbar-height: calc(28px - var(--jp-border-width));
+  --jp-additional-toolbar-height: calc(28px - var(--jp-border-width));
 }
 
 .jp-Toolbar-spacer {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .jp-Icon {
-    min-height: auto;
+  min-height: auto;
 }
 
 #hub-toolbar {
-    border-bottom: none;
-    min-height: var(--jp-additional-toolbar-height) !important;
+  border-bottom: none;
+  min-height: var(--jp-additional-toolbar-height) !important;
 }
