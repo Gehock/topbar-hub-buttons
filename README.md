@@ -1,6 +1,6 @@
 # topbar_hub_buttons
 
-[![Github Actions Status](https://github.com/AaltoSciComp/topbar-hub-buttons.git/workflows/Build/badge.svg)](https://github.com/AaltoSciComp/topbar-hub-buttons.git/actions/workflows/build.yml)
+[![Github Actions Status](https://github.com/AaltoSciComp/topbar-hub-buttons/workflows/Build/badge.svg)](https://github.com/AaltoSciComp/topbar-hub-buttons/actions/workflows/build.yml)
 A JupyterLab extension that adds JupyterHub buttons on the topbar
 
 ## Change logs
