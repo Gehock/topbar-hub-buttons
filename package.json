@@ -25,7 +25,7 @@
     "style": "style/index.css",
     "repository": {
         "type": "git",
-        "url": "https://github.com/AaltoSciComp/topbar-hub-buttons.git"
+        "url": "https://github.com/AaltoSciComp/topbar-hub-buttons"
     },
     "scripts": {
         "build": "jlpm build:lib && jlpm build:labextension:dev",
