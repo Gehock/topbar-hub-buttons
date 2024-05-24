@@ -1,6 +1,6 @@
 {
     "name": "topbar-hub-buttons",
-    "version": "0.2.1",
+    "version": "0.2.2-a1",
     "description": "A JupyterLab extension that adds JupyterHub buttons on the topbar",
     "keywords": [
         "jupyter",
